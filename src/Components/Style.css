@@ -1,0 +1,233 @@
+
+
+
+
+
+
+
+@media screen and (width>750px){
+
+    .header{
+
+        display: flex;
+        
+    flex-direction: column;
+    width: 100%;
+    height:150px;
+    
+    
+    }
+
+.header .logo{
+
+    width: 100%;
+height: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.logo img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.header .title{
+ 
+    height:50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    word-wrap: break-word;
+
+}
+.title p{
+    font-weight:bold;
+    margin:10px;
+}
+.para{
+ 
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+
+}
+.para li{
+    width: 100%;
+display: flex;
+flex-direction:column ;
+padding: 0px 50px;
+padding-right:50px ;
+font-size: 0.9rem;
+word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}
+/* Content 1 styling
+ */
+
+ .content1{
+margin-top: 65px;   
+width:100vw;
+height: 360px;    
+display: flex;
+    flex-direction:column;
+
+    object-fit: cover;
+    
+ }
+.images{
+width: 100%;
+height:320px;
+    display: flex;
+flex-direction: row;
+
+
+}
+.images .firstImg{
+flex: 1;
+width: 100%;    
+height: 100%;
+    display: flex;
+    justify-content: center;
+} 
+.firstImg img{
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.images .secondImg{
+
+flex: 2;
+  
+    height: 100%;
+
+   display: flex;
+   justify-content:center;
+}
+
+.secondImg img {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.secondPara{
+    width: 100%;
+    height:40px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+padding-left: 50px;
+padding-right: 50px;
+    font-size: 0.9rem;
+    
+}
+
+/* Content2 */
+
+.content2{
+    
+width: 100vw;
+height:370px;
+
+}
+.content2 .thirdPara{
+
+    width: 100%;
+    height:30px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px ;
+
+}
+
+.content2 .thirdImg{
+
+    width: 100%;
+    height:300px ;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.thirdImg img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.productName{
+    width:100%;
+    height: auto;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+
+.productName hr{
+
+
+border: 0;
+width: 90%;
+height:3px;
+background-color: red;
+margin-top: 5px;
+margin-left: 30px;
+
+}
+.footer{
+
+    width: 100vw;
+
+height: 190px;
+}
+.productTitle{
+ 
+width: 100%;
+height: 30px;
+
+padding: 10px;
+text-align: center;
+word-wrap: break-word;
+
+}
+.fluidProduct{
+    width: 100%;
+height: 60px;
+
+margin-top: 2px;
+padding: 0px 20px;
+word-wrap: break-word;
+text-align: center;
+font-size: 0.8rem;
+}
+.fluidProduct span{
+color:red;
+}
+
+.contact{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+display: flex;
+justify-content: space-evenly;
+
+list-style: none;
+
+font-weight:bold;
+
+padding-top:20px;
+}
+.contact li a{
+ color: white;   
+    text-decoration: none;
+cursor: pointer;
+}
+
+
+/* pc design finished */
+}

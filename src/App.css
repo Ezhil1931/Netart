@@ -1,0 +1,11 @@
+body{
+width: 100vw;
+min-height: 100vh;
+
+  background: linear-gradient(0deg, rgba(255,248,170,1) 0%, rgba(255,255,255,1) 100%);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+overflow-x:hidden;
+background-repeat: no-repeat;
+
+}

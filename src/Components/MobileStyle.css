@@ -1,0 +1,215 @@
+@media all and (max-width:750px) {
+    
+
+    .header{
+width:100vw;
+height: 190px;
+
+}
+.header .logo{
+
+   width: 100%;
+   height:80px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .title{
+width: 100%;
+height:30px;
+padding:5px;
+word-wrap: break-word;
+font-size:10px;
+display: flex;
+justify-content: center;
+
+}
+.header .para{
+
+    width: 100%;
+    height: 65px;
+    padding: 3px;
+
+    font-size: 10px;
+word-wrap: break-word;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top:5px;
+
+}
+
+
+.logo img{
+
+    max-width: 100%;
+    max-height:100% ;
+}
+
+/*content1 styel*/
+
+.content1{
+
+    width: 100%;
+    height:230px;
+
+    display: flex;
+    padding: 3px;
+    flex-direction: column;
+ justify-content: center;
+gap: 0px;
+}
+.images{
+
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstImg{
+
+    flex: 1;
+    height: 100%;
+
+}
+.firstImg img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.secondImg{
+flex: 2;
+height: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.secondImg img{
+max-width: 100%;
+max-height:100%;
+object-fit: cover;
+
+}
+
+
+.secondPara{
+    width: 100%;
+    height: 50px;
+    font-size: 10px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+/* Content2 styling*/
+.content2{
+
+    width: 100%;
+    height:220px;
+ 
+}
+.content2 .thirdPara{
+
+width:100%;
+height: 40px;
+
+font-size:9px;
+padding: 4px;
+}
+
+.thirdImg {
+    width: 100%;
+    height:150px;
+  
+display: flex;
+    justify-content: center;
+}
+.thirdImg img{
+ 
+    max-width:90%;
+    max-height:100%;
+
+}.productName{
+
+    width: 100%;
+    height: 30px;
+      font-size:8px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.productName  hr{
+
+    border: 0;
+    width:93%;
+height: 1px;
+margin-top: 4px;
+    background-color: red;
+
+}
+
+/* Footer styling*/
+.footer{
+    width: 100%;
+    height:fit-content;
+  
+}
+
+.footer .productTitle{
+
+    width: 100%;
+    height: 20px;
+ 
+font-size: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer .fluidProduct{
+
+    width: 100%;
+    height:75px ;
+ 
+font-size: 11.5px;
+display: flex;
+flex-direction: column;
+
+padding: 4px;
+text-align: center;
+}
+
+.fluidProduct span{
+
+    color: red;
+
+}
+.footer .contact{
+    width: 100%;
+    height:80px;
+background:red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-size: 15px;
+color: white;
+list-style: none;
+}
+.contact li a{
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+@media screen  and (920>width>600){
+    
+
+
+}
